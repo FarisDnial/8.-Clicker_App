@@ -11,6 +11,10 @@ function decrement(){
   counter.textContent = count;
 }
 
+function reset(){
+  count = 0;
+  counter.textContent = count;
+}
 //function multiplication(){
  // count = count * 2;
  // counter.textContent = count;
